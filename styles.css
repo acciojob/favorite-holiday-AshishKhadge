@@ -1,1 +1,99 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+/* 	padding:0px; */
+}
+body{
+	background:linear-gradient(45deg, pink 50%,aqua);
+	width:auto;
+	height:auto;
+}
+
+h1{
+	text-align:center;
+	text-decoration:none;
+}
+
+p{
+	font-size:20px;
+	font-style:italic;
+	margin:10px;
+	text-shadow:0px 8px 9px black;
+	margin-bottom:20px;
+}
+
+.attractions{
+	text-align:left;
+	padding:15px;
+	font-size:20px;
+	background-color:white;
+	border:1px solid black;
+	border-radius:10px;
+	
+}
+
+.attractions>p{
+	margin:0px;
+	margin-bottom:10px;
+}
+
+ol{
+	background-color:#E6D7F7;
+	box-shadow:0px 9px 15px;
+	border-radius:10px;
+	list-style:none;
+}
+
+ol>li{
+	padding-right:10px;
+	text-align:center;
+	display:inline;
+}
+
+ol:hover{
+	background-color:#F3C89C;
+	box-shadow:0px 9px 15px #A3E1F8;
+}
+ol>li:hover{
+	color:maroon;
+	text-decoration:underline black;
+}
+
+.food{
+	margin-top:30px;
+	text-align:left;
+	padding:15px;
+	font-size:20px;
+	background-color:white;
+	border:1px solid black;
+	border-radius:10px;
+}
+
+.food>ul{
+	background-color:#E6D7F7;
+	box-shadow:0px 9px 15px;
+	border-radius:10px;
+}
+
+.food>ul>li{
+	padding-right:10px;
+	text-align:center;
+	display:inline;
+}
+
+ul:hover{
+	background-color:#F3C89C;
+	box-shadow:0px 9px 15px #A3E1F8;
+}
+ul>li:hover{
+	color:maroon;
+	text-decoration:underline black;
+}
+
+.food>p{
+	font-size:20px;
+	font-style:italic;
+	margin:10px;
+	text-shadow:0px 8px 9px black;
+	margin-bottom:20px;
+}
